@@ -1,0 +1,29 @@
+/* Banner design */
+/* Your banner CSS code here */
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  color: white;
+}
+
+/*.banner-content a {
+  margin-top: 200px;
+}
+*/
+.banner-content h1 {
+  font-size: 42px;
+}
+
+.banner-content p {
+  color: #e6e6e6;
+  font-size: 20px;
+  margin-bottom: 50px;
+}

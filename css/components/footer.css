@@ -1,0 +1,20 @@
+/* Footer design */
+/* Footer design */
+.wrapper-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #211A1E;
+  text-align: center;
+}
+
+.wrapper-footer p {
+  color: rgb(200,200,200);
+}
+
+.fa {
+  color: #FDFFFC;
+}
+
+.fa:hover {
+  color: #AEA3B0;
+}

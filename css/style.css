@@ -1,0 +1,46 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/form.css");
+@import url("components/dateform.css");
+
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
+/*.list-features {
+  margin-top: 100px;
+}*/
+
+.list-features img {
+  height: 100px;
+  width: 100px;
+}
+
+.feature-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.feature-wrapper li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
