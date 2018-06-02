@@ -90,3 +90,16 @@ h2 {
 .top-nav ul li a:visited {
   color: #484848;
 }
+
+.btn {
+  margin: 10px;
+}
+
+.btn-primary {
+  background-color: #caa842;
+  border-color: #ccbf98;
+}
+
+.form-control {
+  width: 50%;
+}

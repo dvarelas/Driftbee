@@ -15,7 +15,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body style="margin-bottom: 100px;">
     <div class="container-fluid">
     <div class="col-sm-12">
     <div class="row">
@@ -28,16 +28,16 @@
       </ol>
 
       <!-- Wrapper for slides -->
-      <div class="carousel-inner" style="height: inherit;">
+      <div class="carousel-inner" style="max-width:100%; max-height:100%;">
         <div class="item active">
           <img src="images/ksidia.jpg" alt="Los Angeles">
         </div>
 
-        <div class="item" style="height: inherit;">
+        <div class="item" style="max-width:100%; max-height:100%;">
           <img src="images/lakis.jpg" alt="Chicago">
         </div>
 
-        <div class="item" style="height: inherit;">
+        <div class="item" style="max-width:100%; max-height:100%;">
           <img src="images/beginners.jpg" alt="New York">
         </div>
       </div>
@@ -68,7 +68,26 @@
         </div>
         <div class="col-right col-xs-6 col-sm-6" style="margin-top: 50px; float: right; width: 50%;">
           <div class="boxed" style=" border: 2px solid grey; width: inherit;">
-            This text is enclosed in a box.
+            <font size="5" style="margin-left:8px;">£60</font><font size="2"> per day</font>
+            <hr>
+            <font size="3" style="margin-left:8px;"> Dates</font>
+            <div class="form-group" style="margin-left:8px; margin-right:8px;">
+              <label class="sr-only" for="destination">Check In</label>
+              <input type="date" class="form-control" id="checkin_w" placeholder="Check In">
+            </div>
+          <div class="form-group" style="margin-left:8px; margin-right:8px;>
+            <label class="sr-only" for="activity"></label>
+            <input type="date" class="form-control" id="checkout_w" placeholder="Check Out">
+          </div>
+          <div class="row" style="margin-left:8px;">
+            <font size="3"> Bees</font>
+          </div>
+          <select class="form-control" style="margin-left:8px; margin-right:8px;">
+            <option value="1">1 bee</option>
+            <option value="2">2 bees</option>
+            <option value="3">3 bees</option>
+          </select>
+          <button type="search" class="btn btn-primary">Book Now</button>
           </div>
         </div>
     </div>
