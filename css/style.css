@@ -44,3 +44,49 @@ h2 {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.top-nav {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo:link {
+  position: relative;
+  color: #484848;
+  display: inline-block;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  float: left;
+}
+
+.logo img {
+  position: relative;
+  padding: : : 12px 18px;
+  vertical-align: middle;
+  border-right: 1px solid #ccc;
+}
+
+/* Nav search */
+
+.top-nav ul {
+  float: right;
+  margin: 16px 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.top-nav ul li a:link {
+  color: #484848;
+  font-size: 14px;
+}
+
+.top-nav ul li a:visited {
+  color: #484848;
+}
